@@ -12,9 +12,9 @@ public class ItemVenda {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer codigo;
 
-    public Double valorparcial;
+    public Double valorParcial;
 
-    public Integer quantidadeparcial;
+    public Double quantidadeParcial;
 
     @ManyToOne
     public Produto produto;
